@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <com.sen.slidemenu.SlidingMenu
+        android:layout_width="match_parent"
+        android:id="@+id/slidingMenu"
+        android:layout_height="match_parent" >
+        <!-- 引入左侧菜单布局 -->
+        <include layout="@layout/left"/>
+        <!-- 引入正文布局 -->
+        <include layout="@layout/content"/>
+    </com.sen.slidemenu.SlidingMenu>
+   
+
+    <!-- <include layout="@layout/include" /> -->
+
+</RelativeLayout>
